@@ -55,7 +55,7 @@
                 {
                  "name":"exitURL",
                  "type":"string",
-                 "value":"\/Catan.json"
+                 "value":"Catan.json"
                 }],
          "type":"tilelayer",
          "visible":true,
