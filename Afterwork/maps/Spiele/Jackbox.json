@@ -145,7 +145,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/..\/..\/map.json"
+                 "value":"..\/..\/..\/map.json#fromJackbox"
                 }],
          "type":"tilelayer",
          "visible":true,
