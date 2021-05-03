@@ -174,7 +174,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"\/Afterwork\/maps\/Spiele\/Jackbox.json"
+                 "value":"Afterwork\/maps\/Spiele\/Jackbox.json"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -189,7 +189,7 @@
          "name":"bottom",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":85,
          "x":0,
          "y":0
@@ -201,7 +201,7 @@
          "name":"bottom2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":85,
          "x":0,
          "y":0
