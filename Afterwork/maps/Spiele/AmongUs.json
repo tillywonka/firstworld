@@ -55,7 +55,7 @@
                 {
                  "name":"exitURL",
                  "type":"string",
-                 "value":"Catan.json"
+                 "value":"..\/Spiele\/Catan.json"
                 }],
          "type":"tilelayer",
          "visible":true,
