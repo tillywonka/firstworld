@@ -49,7 +49,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/..\/..\/Afterwork\/maps\/Hub#fromCatan.json"
+                 "value":"..\/Hub#fromCatan.json"
                 }],
          "type":"tilelayer",
          "visible":true,
