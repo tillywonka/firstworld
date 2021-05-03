@@ -24,8 +24,8 @@
          "properties":[
                 {
                  "name":"playAudio",
-                 "type":"file",
-                 "value":"..\/..\/..\/..\/..\/Tiled maps\/Afterwork\/Sounds\/MyVeryOwnDeadShip.ogg"
+                 "type":"string",
+                 "value":"..\/..\/Sounds\/MyVeryOwnDeadShip.ogg"
                 }],
          "type":"tilelayer",
          "visible":true,
