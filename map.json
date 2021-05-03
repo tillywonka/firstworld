@@ -44,6 +44,12 @@
          "id":19,
          "name":"fromCatan",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":26,
@@ -56,6 +62,12 @@
          "id":20,
          "name":"fromAmongUs",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"startLayer",
+                 "type":"bool",
+                 "value":true
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":26,
