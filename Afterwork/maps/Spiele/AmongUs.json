@@ -73,7 +73,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/..\/..\/Afterwork\/maps\/Hub.json"
+                 "value":"..\/..\/..\/map.json"
                 }],
          "type":"tilelayer",
          "visible":true,
