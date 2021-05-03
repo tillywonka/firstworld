@@ -48,7 +48,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"..\/..\/..\/maps.json#fromDisco"
+                 "value":"..\/..\/..\/map.json#fromDisco"
                 }],
          "type":"tilelayer",
          "visible":true,
