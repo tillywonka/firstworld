@@ -1,2 +1,2 @@
-(()=>{"use strict";console.log("Du hast die Konsole entdeckt :-O Bist du eine Hacker?? Jetzt aber schnell. Sage Steve oder Tilly, welche Musik im Hühnerraum läuft. Die ersten drei erhalten ein HighFive+ aus unserem persönlichen HighFive+ Kontingent")})();
+(()=>{"use strict";console.log("Du hast die Konsole entdeckt :-O Bist du eine Hacker?? Jetzt aber schnell. Finde heraus unter wievielen ?-Blöcken Nyan-Mario im Hühnerraum durchläuft? Die ersten drei richtigen Meldungen bei Steve oder Tilly erhalten ein HighFive+ aus unserem persönlichen HighFive+ Kontingent")})();
 //# sourceMappingURL=script.js.map
