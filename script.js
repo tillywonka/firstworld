@@ -1,2 +1,2 @@
-(()=>{"use strict";console.log("Die ersten drei, die das lesen und sich bei Steve oder Tilly melden, bekommen ein HighFive+ sobald diese verfügbar sind.")})();
+(()=>{"use strict";console.log("Du hast die Konsole entdeckt :-O Bist du eine Hacker?? Jetzt aber schnell. Sage Steve oder Tilly, welche Musik im Hühnerraum läuft. Die ersten drei erhalten ein HighFive+ aus unserem persönlichen HighFive+ Kontingent")})();
 //# sourceMappingURL=script.js.map
