@@ -3,4 +3,4 @@
 // You can write your WorkAdventure script here, if any.
 // The "WA" global object is available from anywhere.
 
-console.log('Script started successfully');
+console.log('Die ersten drei, die das lesen und sich bei Steve oder Tilly melden, bekommen ein HighFive+ sobald diese verfügbar sind.');
