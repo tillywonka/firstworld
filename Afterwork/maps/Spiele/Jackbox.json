@@ -56,12 +56,17 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":""
+                 "value":"https:\/\/bitglobal.sharepoint.com\/sites\/funandsports\/SitePages\/Willkommen-zum-Afterwork-am-13.-Geburtstag-der-bIT-Gruppe.aspx"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
                  "type":"string",
                  "value":"onaction"
+                }, 
+                {
+                 "name":"openWebsiteTriggerMessage",
+                 "type":"string",
+                 "value":"Dr\u00fccke die LEERTASTE, um Infos \u00fcber Workadventure und unser heutiges Programm zu erhalten"
                 }],
          "type":"tilelayer",
          "visible":true,
