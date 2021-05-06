@@ -610,7 +610,7 @@
                  "value":"Leckeres Buffet! Dr\u00fccke die LEERTASTE, und lade ein Bild von deinem Essen hoch :-) Dann k\u00f6nnen sich alle f\u00fcr dich und mit dir freuen!"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":89,
          "x":0,
          "y":0
