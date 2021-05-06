@@ -1,0 +1,504 @@
+/*=========================
+ *
+ * Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz.
+* This work is licensed under a Creative Commons Attribution - ShareAlike 4.0 International License.
+* See details under: https://creativecommons.org/licenses/by-sa/4.0/
+ *
+==========================*/
+
+/*=========================
+ * Custom Styles
+==========================*/
+* {
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 90%;
+}
+
+@media only screen and (min-device-width : 800px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+body {
+  max-width: 1400px;
+  font-family: 'Ubuntu', 'Verdana', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #fff url('../images/bg-noise.png');
+  color: #232323;
+  overflow-wrap: break-word;
+}
+
+.container {
+  margin: .75em;
+}
+
+.social,
+header,
+main,
+aside,
+footer {
+  margin: 0;
+  padding: 1rem;
+}
+
+.social {
+   border-bottom: 1px #999 dashed;
+}
+
+footer {
+  border-top: 1px #999 dashed;
+}
+
+/*=========================
+ * Typography
+==========================*/
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  padding-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 300;
+  line-height: 1.1;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+h4 {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+h6 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  margin: .75rem 0;
+}
+
+h3, h4, h5, h6 {
+  margin: .5rem 0;
+}
+
+.slogan {
+  margin: .75rem 0;
+  padding: 1rem 0;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: .25rem;
+  line-height: 1.5;
+}
+
+.slogan a {
+  text-decoration: none;
+  color: #232323;
+}
+
+.slogan a:hover {
+  text-decoration: none;
+  color: #666;
+}
+
+.title {
+  text-align: center;
+  padding: 1rem 0 0 0;
+}
+
+.team-icon {
+  padding-left: 1rem;
+  font-size: 15vw;
+  color:grey;
+  filter: grayscale(100%);
+}
+
+blockquote,
+figcaption,
+p,
+.lead {
+  margin: 0 1rem 0 .5rem;
+  line-height: 1.5;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #37474F;
+}
+
+.center {
+   text-align: center;
+}
+.right {
+   text-align: right;
+}
+
+/*=========================
+ * Figures/Images
+==========================*/
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-weight: 300;
+  font-style: italic;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+img:hover {
+   opacity: 0.8;
+}
+
+/*=========================
+ * CSS Grids
+==========================*/
+.grid {
+   display: grid;
+}
+
+/*=========================
+ * Main Grids
+==========================*/
+/* The definition of the grids can be found separately in  the HTML files.
+ * This allows a specific arrangement of the grids for each HTML page. */
+
+/* Defining the Grid Areas: */
+.social {
+   grid-area: social;
+}
+header {
+   grid-area: header;
+}
+main {
+   grid-area: main;
+}
+aside {
+   grid-area: aside;
+}
+footer {
+   grid-area: footer;
+}
+
+/*=========================
+ * Subgrids
+==========================*/
+.subgrid {
+  margin: 0;
+  padding: .25rem;
+  grid-template-columns: 1fr;
+  gap: .25rem;
+}
+
+@media only screen and (min-device-width : 600px) {
+   .subgrid {
+      grid-template-columns: repeat(2, 1fr);
+   }
+}
+
+@media only screen and (min-device-width : 900px) {
+   .subgrid {
+      grid-template-columns: repeat(4, 1fr);
+   }
+}
+.subgrid-item {
+  padding: 1rem;
+}
+
+ul.subgrid-item {
+  list-style: none;
+}
+
+ul.subgrid-item li {
+  padding: .5rem .25rem;
+}
+
+
+.subgrid-item a,
+.link {
+  text-decoration: none;
+  color: #666;
+}
+
+.subgrid-item a:visited,
+.link:visited{
+  color: #999;
+}
+
+.subgrid-item a:hover,
+.subgrid-item a:active,
+.link:hover,
+.link:active {
+  color: #333;
+}
+
+.subgrid-item a:focus,
+.link:focus {
+  color: #7f7f7f;
+  outline: #4d4d4d;
+}
+
+/*=========================
+ * Grid Navigation
+==========================*/
+nav {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.grid-nav-main {
+  grid-template-columns: repeat(auto-fit,minmax(60px,1fr));
+  list-style: none;
+  margin: 0 .5rem .5rem;
+  padding: .5rem 0;
+}
+
+.grid-nav-main li {
+  border-top: 1px #999 solid;
+  border-bottom: 1px #999 solid;
+}
+
+.grid-nav-main a {
+  display: block;
+  margin: .2rem 0;
+  padding: .5rem 0;
+  font-size: 12px;
+  line-height: 1.1;
+  text-align: center;
+  text-decoration: none;
+  background: transparent;
+  color: #333;
+  transition: all .75s ease;
+}
+.grid-nav-main a:hover {
+  background-color: #fafafa;
+  color: #7f7f7f;
+}
+
+@media only screen and (min-device-width : 400px) {
+  .grid-nav-main {
+    grid-template-columns: repeat(auto-fit,minmax(75px,1fr));
+  }
+
+ .grid-nav-main a {
+    margin: .2rem;
+    padding: .5rem;
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+}
+
+@media only screen and (min-device-width : 800px) {
+ .grid-nav-main a {
+    margin-right: 1rem;
+    padding: 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+}
+
+/*=========================
+ * Social Media Bar
+==========================*/
+.flex-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-social-fb,
+.flex-social-insta,
+.flex-social-twitter {
+  display: inline-block;
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 75%;
+  opacity: .7;
+}
+
+@media only screen and (min-device-width : 800px) {
+  .flex-social-fb,
+  .flex-social-insta,
+  .flex-social-twitter {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+.flex-social-fb {
+  background-image: url('../images/fb.png');
+}
+
+
+.flex-social-insta {
+  background-image: url('../images/insta.png');
+}
+
+
+.flex-social-twitter {
+  background-image: url('../images/twitter.png');
+}
+
+.flex-social-fb:hover,
+.flex-social-insta:hover,
+.flex-social-twitter:hover {
+  opacity: 1;
+}
+
+/*=========================
+ * Flexbox Cards
+==========================*/
+/*Flex parent*/
+.flex-card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+/*Flex items*/
+.flex-card-item {
+  display: flex;
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+}
+
+/*Flex container for content*/
+.flex-card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+/* On smaller screens the headline comes first */
+.flex-card-image {
+    order: 1;
+}
+.flex-card-title {
+    order: -1;
+}
+/* On larger screens the image comes first */
+@media only screen and (min-device-width : 800px) {
+  .flex-card-image {
+    order: -1;
+  }
+  .flex-card-title {
+    order: 1;
+  }
+}
+.flex-card-subtitle {
+    order: 2;
+}
+.flex-card-text {
+    order: 3;
+}
+.flex-card-footer {
+    order: 4;
+}
+
+.flex-card-title,
+.flex-card-subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.flex-card-text {
+  flex: 1 0 auto;
+  align-self: center;
+  width: 80%;
+  margin: 0;
+  text-align: right;
+}
+
+.flex-card-footer {
+  align-self: center;
+  margin-top: auto auto;
+  margin-bottom: 0.5rem;
+  padding: 1rem 1rem 0;
+  text-align: right;
+}
+
+@media only screen and (min-device-width : 800px) {
+  .flex-card-title,
+  .flex-card-subtitle,
+  .flex-card-text,
+  .flex-card-footer {
+    align-self: flex-end;
+  }
+}
+
+/*=========================
+ * Flexbox aside
+==========================*/
+.flex-aside {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/*Flex items*/
+.flex-aside-item {
+  margin: 1rem 0;
+  padding-bottom: 1rem;
+}
+
+/*=========================
+ * Buttons
+==========================*/
+.btn {
+  display: block;
+  outline: none;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  overflow: hidden;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: 0.01rem;
+  text-decoration: none;
+  background-color: transparent;
+  border: 1px solid #263238;
+  border-radius: 0.125rem;
+  color: #1a1a1a;
+}
+
+.btn:hover, .btn:focus {
+  cursor: pointer;
+  opacity: .7;
+  transition: opacity 500ms ease-out;
+}
+
+.btn:active {
+  transform: scale(.95);
+}
