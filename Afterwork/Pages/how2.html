@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!--
+Dieses Werk ist lizenziert unter einer Creative Commons Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International Lizenz.
+This work is licensed under a Creative Commons Attribution - ShareAlike 4.0 International License.
+See details under: https://creativecommons.org/licenses/by-sa/4.0/
+ -->
+
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+   <!-- Mobile viewport optimisation -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>minimalistic - products</title>
+  <meta name="description" content="Minimalistic Layout with CSS Grid Layout Modul and CSS Flexbox - created by Rüdiger Alte, imarketinx.de.">
+  <link rel="stylesheet" href="css/minimalistic.min.css">
+  <!-- Shortcut Icons / Favicons -->
+  <link rel="shortcut icon" href="../../bilder/imx-favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../../bilder/imx-favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="../../bilder/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="../../bilder/apple-touch-icon-precomposed.png">
+  <meta name="msapplication-square144x144logo" content="../../bilder/win8-tile-144x144.png">
+<style>
+.grid-areas {
+  margin: 0;
+  padding: 0;
+  grid-template-areas:
+    "social"
+    "header"
+    "main"
+    "aside"
+    "footer";
+  gap: .5rem;
+}
+
+@media only screen and (min-device-width : 800px) {
+ .grid-areas {
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas:
+      "social social social"
+      "header header header"
+      "aside main main"
+      "footer footer footer";
+    gap: 1rem;
+    align-items: stretch;
+ }
+}
+</style>
+</head>
+
+<body>
+ <video controls autoplay>
+
+<source src="How to Workadventure.mp4" type="video/mp4"</source>
+
+</video>
+</body>
+</html>
