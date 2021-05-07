@@ -92,7 +92,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"Afterwork\/Pages\/how2.html"
+                 "value":"..\/..\/Pages\/how2.html"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
