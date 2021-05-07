@@ -625,7 +625,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/drive.google.com\/embeddedfolderview?id=1mrf69bC9_zKuZfKUsXbXHNY3YkBCwg3t#grid"
+                 "value":"newtab.html"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
