@@ -597,7 +597,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"WA.openTab('https:\/\/www.wikipedia.org\/');"
+                 "value":"newtab.html"
                 }, 
                 {
                  "name":"openWebsiteAllowAPI",
