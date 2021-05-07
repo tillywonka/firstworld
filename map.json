@@ -597,7 +597,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"https:\/\/1drv.ms\/f\/s!ApRVsOEjtRPtgeEnrCs-HaGfsAM5OA"
+                 "value":"https:\/\/www.pic-upload.de\/my-upload.php"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
@@ -610,7 +610,7 @@
                  "value":"Leckeres Buffet! Dr\u00fccke die LEERTASTE, und lade ein Bild von deinem Essen hoch :-) Dann k\u00f6nnen sich alle f\u00fcr dich und mit dir freuen!"
                 }],
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":89,
          "x":0,
          "y":0
