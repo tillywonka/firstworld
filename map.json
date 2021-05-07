@@ -597,7 +597,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"newtab.html"
+                 "value":"https:\/\/bit-geburtstag.de"
                 }, 
                 {
                  "name":"openWebsiteTrigger",
