@@ -2544,34 +2544,14 @@
          "columns":2,
          "firstgid":1503,
          "image":"Afterwork\/Tilesets\/kicker.png",
-         "imageheight":64,
+         "imageheight":65,
          "imagewidth":64,
          "margin":0,
          "name":"kicker",
          "spacing":0,
          "tilecount":4,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":0,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }, 
-                {
-                 "id":1,
-                 "properties":[
-                        {
-                         "name":"collides",
-                         "type":"bool",
-                         "value":true
-                        }]
-                }],
-         "tilewidth":32,
-         "transparentcolor":"#ffffff"
+         "tilewidth":32
         }],
  "tilewidth":32,
  "type":"map",
