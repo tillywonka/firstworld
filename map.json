@@ -27,7 +27,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -55,7 +55,7 @@
                  "value":"Keine Lust auf Quatschen? Mal was kleines zocken? Dann findest du mit der LEERTASTE bestimmt was gutes :-)"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -83,7 +83,7 @@
                  "value":"https:\/\/www.youtube.com\/watch?v=GRTebBz7450"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -111,7 +111,7 @@
                  "value":"Endlich wieder kickern! Mit LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -139,7 +139,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -167,7 +167,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -195,7 +195,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -223,7 +223,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -251,7 +251,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -279,7 +279,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -307,7 +307,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -335,7 +335,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -363,7 +363,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -391,7 +391,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -419,7 +419,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -447,7 +447,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -475,7 +475,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -503,7 +503,7 @@
                  "value":"Du Vermisst den Ausblick? Dr\u00fccke die LEERTASTE"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -521,7 +521,7 @@
                  "value":"Hausen"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -539,7 +539,7 @@
                  "value":"Bornheim"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -557,7 +557,7 @@
                  "value":"Gutleut"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -575,7 +575,7 @@
                  "value":"Kueche"
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -587,7 +587,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -599,7 +599,7 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -611,7 +611,7 @@
          "name":"W\u00e4nde",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -623,7 +623,7 @@
          "name":"schmalewand",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -635,7 +635,7 @@
          "name":"M\u00f6bel",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -647,7 +647,7 @@
          "name":"M\u00f6bel2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
@@ -659,7 +659,7 @@
          "objects":[],
          "opacity":1,
          "type":"objectgroup",
-         "visible":true,
+         "visible":false,
          "x":0,
          "y":0
         }, 
@@ -670,7 +670,7 @@
          "name":"top",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":25,
          "x":0,
          "y":0
